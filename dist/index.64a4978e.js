@@ -949,7 +949,7 @@ window.addEventListener("resize", function() {
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-},{"three":"ktPTu","three/examples/jsm/controls/OrbitControls.js":"7mqRv","../img/nebula.jpg":"IVrgt","../img/stars.jpg":"gMZmk","../img/tabletop.jpg":"bLAMT","../img/tabletop1.jpg":"hab30","../img/tabletop2.jpg":"7rnwP","../img/tabletop3.jpg":"1Z7gh","../img/tabletop4.jpg":"5rUsU","../img/book1.jpg":"j4wXV","../img/book_back.jpg":"7Pun0","../img/book1font.jpg":"cALkK","../img/book1back.jpg":"dWpN5","../img/book1ide1.jpg":"6Yf3V","../img/book1side2.jpg":"4c2Yt","../img/book1top.jpg":"8NPWl","../img/penstand.jpg":"LRwyw","@parcel/transformer-js/src/esmodule-helpers.js":"kHoQi","dat.gui":"k3xQk"}],"ktPTu":[function(require,module,exports) {
+},{"three":"ktPTu","three/examples/jsm/controls/OrbitControls.js":"7mqRv","dat.gui":"k3xQk","../img/nebula.jpg":"IVrgt","../img/stars.jpg":"gMZmk","../img/tabletop.jpg":"bLAMT","../img/tabletop1.jpg":"hab30","../img/tabletop2.jpg":"7rnwP","../img/tabletop3.jpg":"1Z7gh","../img/tabletop4.jpg":"5rUsU","../img/book1.jpg":"j4wXV","../img/book_back.jpg":"7Pun0","../img/book1font.jpg":"cALkK","../img/book1back.jpg":"dWpN5","../img/book1ide1.jpg":"6Yf3V","../img/book1side2.jpg":"4c2Yt","../img/book1top.jpg":"8NPWl","../img/penstand.jpg":"LRwyw","@parcel/transformer-js/src/esmodule-helpers.js":"kHoQi"}],"ktPTu":[function(require,module,exports) {
 /**
  * @license
  * Copyright 2010-2021 Three.js Authors
@@ -30987,87 +30987,7 @@ class MapControls extends OrbitControls {
     }
 }
 
-},{"three":"ktPTu","@parcel/transformer-js/src/esmodule-helpers.js":"kHoQi"}],"IVrgt":[function(require,module,exports) {
-module.exports = require("5afe54f64e88c230").getBundleURL("e6MYJ") + "nebula.a535bdf2.jpg" + "?" + Date.now();
-
-},{"5afe54f64e88c230":"hXZmK"}],"hXZmK":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-}
-// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"gMZmk":[function(require,module,exports) {
-module.exports = require("4f5e1556c57fb53d").getBundleURL("e6MYJ") + "stars.a1d7fe60.jpg" + "?" + Date.now();
-
-},{"4f5e1556c57fb53d":"hXZmK"}],"bLAMT":[function(require,module,exports) {
-module.exports = require("bc957508e8dac5b0").getBundleURL("e6MYJ") + "tabletop.165d2a82.jpg" + "?" + Date.now();
-
-},{"bc957508e8dac5b0":"hXZmK"}],"hab30":[function(require,module,exports) {
-module.exports = require("2a5345493fb39e66").getBundleURL("e6MYJ") + "tabletop1.94cf715a.jpg" + "?" + Date.now();
-
-},{"2a5345493fb39e66":"hXZmK"}],"7rnwP":[function(require,module,exports) {
-module.exports = require("a7a8d97c0944540c").getBundleURL("e6MYJ") + "tabletop2.9db7034d.jpg" + "?" + Date.now();
-
-},{"a7a8d97c0944540c":"hXZmK"}],"1Z7gh":[function(require,module,exports) {
-module.exports = require("6483da110cc5fcc0").getBundleURL("e6MYJ") + "tabletop3.8494ad36.jpg" + "?" + Date.now();
-
-},{"6483da110cc5fcc0":"hXZmK"}],"5rUsU":[function(require,module,exports) {
-module.exports = require("4f86885cfa217d48").getBundleURL("e6MYJ") + "tabletop4.2ca905c9.jpg" + "?" + Date.now();
-
-},{"4f86885cfa217d48":"hXZmK"}],"j4wXV":[function(require,module,exports) {
-module.exports = require("c53f6802f2f72e71").getBundleURL("e6MYJ") + "book1.b8c5621b.jpg" + "?" + Date.now();
-
-},{"c53f6802f2f72e71":"hXZmK"}],"7Pun0":[function(require,module,exports) {
-module.exports = require("fc5d497a44f6d4f2").getBundleURL("e6MYJ") + "book_back.219a199f.jpg" + "?" + Date.now();
-
-},{"fc5d497a44f6d4f2":"hXZmK"}],"cALkK":[function(require,module,exports) {
-module.exports = require("3db98db793361cee").getBundleURL("e6MYJ") + "book1font.d7f84b0b.jpg" + "?" + Date.now();
-
-},{"3db98db793361cee":"hXZmK"}],"dWpN5":[function(require,module,exports) {
-module.exports = require("6220298ee4fb885e").getBundleURL("e6MYJ") + "book1back.0114d7df.jpg" + "?" + Date.now();
-
-},{"6220298ee4fb885e":"hXZmK"}],"6Yf3V":[function(require,module,exports) {
-module.exports = require("17fc3514b07723f3").getBundleURL("e6MYJ") + "book1ide1.f82747e8.jpg" + "?" + Date.now();
-
-},{"17fc3514b07723f3":"hXZmK"}],"4c2Yt":[function(require,module,exports) {
-module.exports = require("685e281d4e2e0ea1").getBundleURL("e6MYJ") + "book1side2.33043b13.jpg" + "?" + Date.now();
-
-},{"685e281d4e2e0ea1":"hXZmK"}],"8NPWl":[function(require,module,exports) {
-module.exports = require("1c771206c3205aa2").getBundleURL("e6MYJ") + "book1top.84e40075.jpg" + "?" + Date.now();
-
-},{"1c771206c3205aa2":"hXZmK"}],"LRwyw":[function(require,module,exports) {
-module.exports = require("7a67f4069cefcff0").getBundleURL("e6MYJ") + "penstand.59171412.jpg" + "?" + Date.now();
-
-},{"7a67f4069cefcff0":"hXZmK"}],"k3xQk":[function(require,module,exports) {
+},{"three":"ktPTu","@parcel/transformer-js/src/esmodule-helpers.js":"kHoQi"}],"k3xQk":[function(require,module,exports) {
 /**
  * dat-gui JavaScript Controller Library
  * https://github.com/dataarts/dat.gui
@@ -33358,6 +33278,86 @@ var index = {
 };
 exports.default = index;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"kHoQi"}]},["kilBT","goJYj"], "goJYj", "parcelRequire2f4f")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"kHoQi"}],"IVrgt":[function(require,module,exports) {
+module.exports = require("5afe54f64e88c230").getBundleURL("e6MYJ") + "nebula.a535bdf2.jpg" + "?" + Date.now();
+
+},{"5afe54f64e88c230":"hXZmK"}],"hXZmK":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"gMZmk":[function(require,module,exports) {
+module.exports = require("4f5e1556c57fb53d").getBundleURL("e6MYJ") + "stars.a1d7fe60.jpg" + "?" + Date.now();
+
+},{"4f5e1556c57fb53d":"hXZmK"}],"bLAMT":[function(require,module,exports) {
+module.exports = require("bc957508e8dac5b0").getBundleURL("e6MYJ") + "tabletop.165d2a82.jpg" + "?" + Date.now();
+
+},{"bc957508e8dac5b0":"hXZmK"}],"hab30":[function(require,module,exports) {
+module.exports = require("2a5345493fb39e66").getBundleURL("e6MYJ") + "tabletop1.94cf715a.jpg" + "?" + Date.now();
+
+},{"2a5345493fb39e66":"hXZmK"}],"7rnwP":[function(require,module,exports) {
+module.exports = require("a7a8d97c0944540c").getBundleURL("e6MYJ") + "tabletop2.9db7034d.jpg" + "?" + Date.now();
+
+},{"a7a8d97c0944540c":"hXZmK"}],"1Z7gh":[function(require,module,exports) {
+module.exports = require("6483da110cc5fcc0").getBundleURL("e6MYJ") + "tabletop3.8494ad36.jpg" + "?" + Date.now();
+
+},{"6483da110cc5fcc0":"hXZmK"}],"5rUsU":[function(require,module,exports) {
+module.exports = require("4f86885cfa217d48").getBundleURL("e6MYJ") + "tabletop4.2ca905c9.jpg" + "?" + Date.now();
+
+},{"4f86885cfa217d48":"hXZmK"}],"j4wXV":[function(require,module,exports) {
+module.exports = require("c53f6802f2f72e71").getBundleURL("e6MYJ") + "book1.b8c5621b.jpg" + "?" + Date.now();
+
+},{"c53f6802f2f72e71":"hXZmK"}],"7Pun0":[function(require,module,exports) {
+module.exports = require("fc5d497a44f6d4f2").getBundleURL("e6MYJ") + "book_back.219a199f.jpg" + "?" + Date.now();
+
+},{"fc5d497a44f6d4f2":"hXZmK"}],"cALkK":[function(require,module,exports) {
+module.exports = require("3db98db793361cee").getBundleURL("e6MYJ") + "book1font.d7f84b0b.jpg" + "?" + Date.now();
+
+},{"3db98db793361cee":"hXZmK"}],"dWpN5":[function(require,module,exports) {
+module.exports = require("6220298ee4fb885e").getBundleURL("e6MYJ") + "book1back.0114d7df.jpg" + "?" + Date.now();
+
+},{"6220298ee4fb885e":"hXZmK"}],"6Yf3V":[function(require,module,exports) {
+module.exports = require("17fc3514b07723f3").getBundleURL("e6MYJ") + "book1ide1.f82747e8.jpg" + "?" + Date.now();
+
+},{"17fc3514b07723f3":"hXZmK"}],"4c2Yt":[function(require,module,exports) {
+module.exports = require("685e281d4e2e0ea1").getBundleURL("e6MYJ") + "book1side2.33043b13.jpg" + "?" + Date.now();
+
+},{"685e281d4e2e0ea1":"hXZmK"}],"8NPWl":[function(require,module,exports) {
+module.exports = require("1c771206c3205aa2").getBundleURL("e6MYJ") + "book1top.84e40075.jpg" + "?" + Date.now();
+
+},{"1c771206c3205aa2":"hXZmK"}],"LRwyw":[function(require,module,exports) {
+module.exports = require("7a67f4069cefcff0").getBundleURL("e6MYJ") + "penstand.59171412.jpg" + "?" + Date.now();
+
+},{"7a67f4069cefcff0":"hXZmK"}]},["kilBT","goJYj"], "goJYj", "parcelRequire3014")
 
 //# sourceMappingURL=index.64a4978e.js.map
